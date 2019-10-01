@@ -64,3 +64,86 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container{
+	width: 900px;
+	margin: auto;
+}
+header nav {
+	display: inline-block;
+	margin: 4%;
+	
+}
+header .logo{
+	margin-left: 5%;
+}
+header nav a{
+	margin: 0 20px;
+	text-decoration: none;
+	color: black;
+	
+}
+header nav a:hover{
+	color: red;
+}
+
+.title h1{
+	display: inline-block;
+	font-size: 400%;
+	text-align: center;
+	margin-top: 125px;
+	margin-left: 10%;
+	width: 40%;
+}
+ .title img{
+	position: relative;
+	margin-top: -35%;
+	margin-left: 55%;
+} 
+
+.title .button{
+	border: 1px solid grey;
+	text-align: center;
+	width: 150px;
+	height: 30px;
+	padding: 2px;
+	margin: 5px 190px;
+}
+.title .button:hover{
+	background: dodgerblue;
+	
+}
+.mainContent{
+	margin-top: 100px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+}
+
+.mainContent .main2{
+	display: inline-block;
+	width: 49%;
+	margin: 5% 0;
+}
+.mainContent .middle-img{
+	margin-bottom: 5%;
+	width
+}
+
+.mainContent .main3{
+	display:inline-block;
+	width:33%;
+	margin-bottom: 5%;
+	
+}
+
+.contact {
+	margin: 5% 0;
+}
+.contact2{
+	line-height: 2;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+}
